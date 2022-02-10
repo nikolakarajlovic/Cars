@@ -15,6 +15,9 @@
     
 </head>
     <body class="antialiased">
+    <div>
+        @include('partials.navbar')
+    </div>
         <div>
             @yield('content')
         </div>
