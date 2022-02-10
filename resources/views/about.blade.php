@@ -1,5 +1,9 @@
-<html>
-    <body>
+@extends('layouts.app')
+
+@section('title')
+About us:
+@endsection
+@section('content')
         <h1>About us</h1>
-    </body>
-</html>
+        <p>To smo mi</p>
+@endsection
