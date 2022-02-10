@@ -5,7 +5,6 @@
         @foreach($cars as $car)
                 <li>
                 {{$car->producer}}, {{$car->title}}, {{$car->number_of_doors}} doors;
-                  
                 </li>
                 @endforeach
         </ul>
